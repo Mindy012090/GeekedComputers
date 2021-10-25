@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeked Computers</title>
+    <link rel="stylesheet" href="geeked.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1><a href="index.html">Geeked Computers</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="services.html">Services</a> </li>
+            <li><a href="price.html">Prices</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="table.html">Information</a></li>
+            <li><a href="iFrame.html">iFrame</a></li>
+            <li><a href="Registration.html">E-mail Us</a></li>
+        </ul>
+            </nav>
+<main>
+    <h2>Email Us</h2>
+    <p>When you E-mail our office, your E-mail will
+        will be redirected to the employee who specializes 
+        in your request. 
+    </p>
+    <form method="POST" action="https://webdevbasics.net/scripts/yoga.php">
+        <label for="myName">Name:</label>
+        <input type="text" name="myName" id="myName">
+
+        <label for="myEmail">E-mail:</label>
+        <input type="email" name="myEmail" id="myEmail">
+
+        <label for="what">What service are you looking for?</label>
+        <input type="text" name="what" id="what" list="whats">
+   <datalist id="whats">
+   <option>Parts Upgrade</option>
+   <option>Part Repair</option>
+   <option>Virus</option>
+   <option>Installation</option>
+   <option>Diagnosis</option>
+   <option>System Backup</option>
+</datalist>
+
+        <label for="myComments">Description of Issue:</label>
+        <textarea name="myComments" id="myComments" rows="2" cols="100"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    
+</main>
+    <footer>
+        <small><i>Copyright &copy;2021 Geeked Computers <br>
+        </i></small>
+    </footer>
+    </div>
+    </body>
+    </html>

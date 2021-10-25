@@ -1,0 +1,89 @@
+*{ box-sizing: border-box; 
+} 
+
+body {background-color: #ec894f;
+color: #333497; 
+font-family: verdana, arial, sans-serif; }
+
+#wrapper { margin: 0 auto; width: 90%; 
+    min-width: 940px;background-color: #28508b; 
+    color: rgb(12, 12, 49);}
+
+header { background-color: #1e4988; color: #da5000;
+    font-size: 200%; padding: 10px 10px 10px 155px;
+    height: 175px;
+    background-image: url(cpu.jpeg); }
+
+    header a { text-decoration: none; transition: color 10s ease-out;}
+    header a:link { color: #da5000;}
+    header a:visited { color: #df651e;}
+    header a:hover { color: #ffffff ;}
+
+main { background-color: #ffffff; 
+    color: rgb(13, 13, 44); 
+padding: 10px 20px; overflow: auto; 
+display: block;}
+
+h1 { color: #e75d0d;}
+ 
+h2 {color: #e75d0d; }
+
+h3 {color: #b33301f3;}
+
+
+nav {float: left; width: 150px; font-weight: bold;
+    letter-spacing: 0.1em;}
+
+nav ul { list-style-type: none; margin: 0; 
+padding: 0;}
+
+nav a { text-decoration: none; padding: 20px; 
+display: block; background-color: #28508b; 
+border-bottom: 2px solid #ffffff;}
+
+nav a:link { color: #ffffff;}
+nav a:visited { color: #eaeaea;}
+nav a:hover { color: #eb9868;   }
+
+video { width: 100%; height: auto; max-width: 500px; }
+
+footer { color: #da8b5d; text-align: center; 
+    font-style: italic; font-size: 70%;
+padding: 10px;}
+
+.floatleft { float: left; margin: 10pt; padding-right: 30pt;}
+
+.floatright { float: right; margin: 10pt;}
+
+.companyname { color: #862b00;}
+
+#mac {height: 150px; width: 100%; 
+    background-image: url(apple\ 3.jpeg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 80% 80%;}
+
+.onehalf    { float: left; width: 50%; padding-left: 2em; padding-right: 2em;}
+
+.attention { color: red; text-decoration: unset;}
+
+table { border: 3px solid #141491; 
+    margin-bottom: 1em;
+    min-width: 400px;
+    border-collapse: separate ;
+}
+td, th {padding: .5em;
+    border: 1px solid #141491;
+}
+tr:nth-of-type(even) { background-color: #ffe3c3;}
+caption { margin: auto;
+    font-weight: bold;
+    font-size: 150%;
+    color: #FFFFFF;
+    background-color: #141491;
+}
+
+form { display: flex; 
+    flex-flow: column nowrap; } 
+
+input, datalist textarea { margin-bottom: .5em; }
